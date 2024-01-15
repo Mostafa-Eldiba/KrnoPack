@@ -1,0 +1,36 @@
+/* Start Section About Slider*/
+.slider-about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--background-color);
+}
+.slider-about .container h2 {
+    color: var(--main-conlor);
+    font-size: 40px;
+}
+.slider-about h2 span {
+    color: var(--sconde-main-color);
+}
+.slider-about p {
+    max-width: 75%;
+    margin: 50px auto 50px;
+}
+.slider-about .container .content-slider-about .item {
+    overflow: hidden;
+    position: relative;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    border: 2px solid #979797;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.item:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/* End Section About Slider*/ 

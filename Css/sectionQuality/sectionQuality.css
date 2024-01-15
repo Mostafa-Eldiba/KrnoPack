@@ -1,0 +1,72 @@
+/* Start Section Quality */
+.quality-all {
+    background-color: var(--background-color);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.quality-all .container .quality h2 {
+    color: var(--sconde-main-color);
+}
+.quality-all .container .quality h2 span {
+    color: var(--main-conlor);
+}
+.quality-all .container .row .card {
+    padding: 0;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%);
+}
+@media (min-width: 992px) {
+    .quality-all .container .row .card {
+        margin-left: 0;
+    }
+}
+.quality-all .container .row .card  .btn {
+    width: 100%;
+    background-color: var(--main-conlor);
+    border: 3px solid var(--sconde-background-color);
+    transition: 0.3s;
+}
+.quality-all .container .row .card  .btn svg {
+    margin-right: 5px;
+}
+.quality-all .container .row .card  .btn:hover {
+    background-color: var(--sconde-main-color);
+    color: var(--main-conlor);
+}
+
+/* End Section Quality */
+
+
+/* Stat Section Quality Text */
+.quality-text {
+    background-color: var(--sconde-background-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.quality-text .container .box h2 {
+    color: var(--sconde-main-color);
+}
+.quality-text .container .box p {
+    color: var(--text-color);
+}
+.quality-text .container .box h2 svg {
+    margin-right: 20px;
+    font-size: 70px;
+}
+.quality-text .container a {
+    background-color: var(--main-conlor);
+    color: var(--sconde-main-color);
+    height: 70px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.quality-text .container  a svg {
+    margin-right: 10px;
+    font-size: 30px;
+}
+.quality-text .container a:hover {
+    background-color: var(--sconde-main-color);
+    color: var(--main-conlor);
+}
+/* End Section Quality Text */

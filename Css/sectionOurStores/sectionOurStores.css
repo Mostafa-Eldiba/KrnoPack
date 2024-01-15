@@ -1,0 +1,35 @@
+.our-stores {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.our-stores .our-stores-content .row .col .card{
+    height: 90%;
+    background-color: var(--main-conlor);
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%);
+}
+.our-stores .our-stores-content .row .col .card span{
+    color: #aaaa;
+}
+.our-stores .our-stores-content .row .col .card span:first-child {
+    background-color: var(--sconde-main-color);
+    width: 70px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+.our-stores .our-stores-content .row .col .card h2{
+    color: white;
+    font-weight: bold;
+}
+.our-stores .our-stores-content .row .col .card p{
+    color: #aaaa;
+    
+}

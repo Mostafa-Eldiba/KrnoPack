@@ -1,0 +1,47 @@
+/* Start Our Sertificate */
+.our-certificate {
+    padding-bottom: 50px;
+}
+.our-certificate .container .inner-column .image-iso {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--sconde-background-color);
+    padding: 20px;
+    box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%);
+    margin-bottom: 20px;
+}
+.our-certificate .container .inner-column .image-iso::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255 255 255 /50%);
+    width: 0;
+    height: 0;
+    opacity: 0;
+    z-index: 1;
+}
+.our-certificate .container .inner-column .image-iso:hover::before {
+    animation: flashing 0.7s;
+}
+.our-certificate .container .inner-column .image-iso img {
+    max-width: 100%;
+    transition: .5s;
+}
+.our-certificate .container .inner-column .image-iso:hover img {
+    transform: rotate(3deg) scale(1.1);
+}
+
+/* Animation */
+@keyframes flashing {
+    0%, 40% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      width: 200%;
+      height: 200%;
+    }
+  }
+/* End Our Sertificate */

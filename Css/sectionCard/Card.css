@@ -1,0 +1,22 @@
+
+.custom-card {
+    margin-bottom: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.btn.btn-primary {
+    background-color: var(--main-conlor);
+    border: none;
+}
+.btn.btn-primary:hover {
+    background-color: var(--sconde-main-color);
+}
+
+/* ================= */
+
+
+
+

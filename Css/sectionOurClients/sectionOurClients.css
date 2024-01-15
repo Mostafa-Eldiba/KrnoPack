@@ -1,0 +1,22 @@
+.our-clients {
+    padding-bottom: 50px;
+}
+.our-clients h2 {
+    color: var(--main-conlor);
+    background-color: #e8e8e8;
+}
+.our-clients .container .our-clients-content {
+    padding-top: 50px;
+}
+.our-clients .container .our-clients-content .col img{
+    display: block;
+    margin-bottom: 50px;
+}
+
+/* Responsive */
+@media (max-width: 778px) {
+    .our-clients .container .our-clients-content .col img {
+        margin: 30px auto;
+    }
+
+}

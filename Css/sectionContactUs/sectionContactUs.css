@@ -1,0 +1,149 @@
+
+/* Start Contact Us */
+.contact-us {
+}
+.contact-us .row .content-contact-us .box {
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid var(--main-conlor);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    height: 100%;
+}
+.contact-us .row .content-contact-us .box:hover {
+    animation: bounceAnimationContactUs 3s infinite;
+    background-color: var(--sconde-main-color);
+    color: var(--main-conlor);
+    color: white;
+}
+.contact-us .row .content-contact-us .box div {
+    background: lightsteelblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+.contact-us .row .content-contact-us .box svg{
+    font-size: 50px;
+    color: var(--main-conlor);
+}
+.contact-us .row .content-contact-us .box h3{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.contact-us .row .content-contact-us .box p{
+    text-transform: capitalize;
+}
+
+/* Responsive */
+@media (max-width: 992px) and (min-width: 778px) {
+    .contact-us .container .row .content-contact-us .box h3 ,
+    .contact-us .container .row .content-contact-us .box p {
+        font-size: 13px;
+    }
+
+}
+@media (max-width: 778px) {
+    .contact-us .container .row .content-contact-us {
+        flex-direction: column;
+    }
+
+}
+
+/* Animation */
+@keyframes bounceAnimationContactUs {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.06); }
+}
+
+
+
+
+/* Start Form Message */
+.form-message {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.form-message .con-container {
+    width: 48%;
+    margin: 0;
+}
+@media (max-width: 778px) {
+    .form-message {
+        flex-direction: column;
+    }
+    .form-message .con-container{
+        width: 100%;
+    }
+    
+}
+.form-message .con-container p {
+    color: #6666;
+    margin-bottom: 5px;
+    line-height: 2;
+    font-size: 18px;
+}
+.form-message .con-container h2 {
+    color: var(--main-conlor);
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+/* Responsive */
+@media (max-width: 992px) {
+    .form-message .con-container h2 {
+        font-size: 20px;
+    }
+    
+}
+/* Start Basic Form */
+.form-message .con-container label {
+    color: #666666;
+}
+.form-message .con-container input, 
+.form-message .con-container textarea {
+    border: none;
+    border-bottom: 3px solid var(--main-conlor);
+    background-color: var(--third-main-color);
+    cursor: pointer;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+.form-message .con-container input:focus,
+.form-message .con-container textarea:focus {
+    
+    outline: none;
+}
+.form-message .con-container #submitBtn {
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    background-color: var(--third-main-color);
+    border-bottom: 2px solid var(--main-conlor);
+    transition: 0.3s;    
+}
+.form-message .con-container #submitBtn:hover {
+    background-color: var(--main-conlor);
+}
+
+/* End Basic Form */
+/* End Form Massage */
+
+/* Start Map */
+.contact-us h2 {
+    color: var(--main-conlor);
+    font-weight: 900;
+}
+.contact-us #map {
+    padding-bottom: 50px;
+}
+/* End Map */
+
+/* End Contact Us */
